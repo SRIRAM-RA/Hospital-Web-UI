@@ -5,14 +5,11 @@ class Adminnav extends Component{
 
     render(){
         return(
-            <div className="topnav" id="myTopnav">
+            <div className="topnav" >
                 <div className="title">
                     <a href="/home" >MEDIHOSP </a>
                 </div>
                 <div className="nav-contents" >
-                    <a href="#" class="icon" >
-                        <i class="fas fa-bars"></i>
-                    </a>
                     <a href="#">ADMIN</a>
                     <a href="/home"> VIEW SITE  </a>
                     <a href="/password"> CHANGE PASSWORD </a>

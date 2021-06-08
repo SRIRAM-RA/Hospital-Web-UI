@@ -17,6 +17,7 @@ code {
 .topnav {
   overflow: hidden;
   display: flex;
+  flex-direction: row;
   /* flex-direction: row-reverse; */
   justify-content: space-between;
   align-items: center;
@@ -1137,22 +1138,22 @@ font-size: x-large;
     width:100%;
     margin-top: 5%;
   }
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
+  .topnav{
+    padding-left: 25px;
   }
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+  .nav-contents{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 4%;
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
+  .nav-contents a{
+    width: 50%;
     text-align: left;
   }
+
 }
 
 /* Tablet */
