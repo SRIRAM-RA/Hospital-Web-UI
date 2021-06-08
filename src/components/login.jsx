@@ -33,7 +33,7 @@ class Login extends Component{
                     <label id="label">PASSWORD</label>
                     <input type="password" placeholder="********" id="input" required/>
                     <label className="remember">
-                        <input type="checkbox" name="remember" id="checkbox"/> &nbsp;REMEMBER&nbsp;ME
+                        <input type="checkbox" name="remember" id="checkbox"/> <label>&nbsp;REMEMBER&nbsp;ME</label>
                     </label><br></br>
                     <button type="button" id="submit" onClick = {()=>{this.props.signin(this.state.portal)}} >SIGN IN</button>
                     <label className="forgot"><a href="/forgotpassword"> FORGOT PASSWORD ?</a> </label>

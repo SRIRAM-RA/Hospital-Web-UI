@@ -999,7 +999,7 @@ font-size: x-large;
   }
   .fun-facts-box{
     width: 100%;
-    padding: 40px;
+    padding: 34px;
   }
   #facts{
     text-align: center;
@@ -1033,6 +1033,9 @@ font-size: x-large;
     margin-top: 6%;
   }
   
+  #patient-btn{
+    margin-top: 10%;
+  }
   /* login */
   .login-form-box{
     width: 90%;
@@ -1044,6 +1047,10 @@ font-size: x-large;
   }
   .remember{
     margin-top: 2%;
+    width: 250px;
+  }
+  #checkbox{
+    margin-top: 2.5%;
   }
   .radial-btns{
     width: 90px;
