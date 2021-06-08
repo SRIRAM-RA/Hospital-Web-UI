@@ -6,8 +6,24 @@ The flow of the Ui is in the below snap:
 
 ![Flow](https://user-images.githubusercontent.com/55801381/121072274-9cb23280-c7ee-11eb-88ba-50cab8bfbe33.png)
 
-### To rund the server
-    Run "npm-start" command to run the node server
+### How to run
+    Clone the repository using the command.
+    `git clone https://github.com/SRIRAM-RA/Hospital-Web-UI.git`
+    
+    then, `cd Hospital-Web-UI`
+         
+### Install the dependencies 
+    Install the dependencies using the command 
+    `npm install`
+       
+### To run the server
+    Run `npm-start` command to run the react development server.
+    
+
+### VIDEO DEMO
+
+https://youtu.be/64LPeoIWLzg
+
 
 There will be a Landing page, where the users can know about the Hospital
 
