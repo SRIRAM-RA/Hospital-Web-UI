@@ -958,6 +958,10 @@ font-size: x-large;
 }
 
 @media screen and (max-width:500px) {
+
+  .remember{
+    margin-top: 2%;
+  }
   #head{
     margin-left: 0%;
   }
