@@ -36,7 +36,7 @@ class Patientdetails extends Component{
                     </div>
                 </div>
                 <br/>
-                <button type="button" id="doc-view-btn" onClick={this.props.clickHandler}> Back</button>
+                <button type="button" id="doc-view-btn" onClick={this.props.doctorPage}> Back</button>
             </div>
         )
     }

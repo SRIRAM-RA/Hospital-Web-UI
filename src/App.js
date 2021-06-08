@@ -49,6 +49,9 @@ class App extends Component{
     this.setState(state=>({currentState:'patientdetails',portal:state.portal, addstaff:state.addstaff}));
   }
 
+  doctorPage = () =>{
+    this.setState(state=>({currentState:'backtodoctor',portal:state.portal, addstaff:state.addstaff}));
+  }
   returnComponent = (currentState) =>{
     console.log(this.state)
     switch(currentState) {
@@ -107,13 +110,24 @@ class App extends Component{
             <Footer/>
           </div>
         )
-
+      
       case 'patientdetails':
         return(
           <div>
             <Docnav />
-            <Patientdetails clickHandler = {this.clickHandler}/>
+            <Patientdetails doctorPage = {this.doctorPage}/>
             <Footer/>
+          </div>
+        )
+      case 'backtodoctor' :
+        return(
+          <div>
+            <Docnav />
+            <Doctorwelcome/>
+            <Aboutdoctor />
+            <Doctorspatient patientDetails= {this.patientDetails} />
+            <Hospcontact />
+            <Footer/> 
           </div>
         )
       default :
