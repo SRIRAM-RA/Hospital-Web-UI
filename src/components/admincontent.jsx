@@ -73,7 +73,6 @@ class Admincontent extends Component{
                         </table>
                     </div>
                 </div>
-
             </div>
         )
     }

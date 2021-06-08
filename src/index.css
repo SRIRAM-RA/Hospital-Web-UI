@@ -968,7 +968,7 @@ font-size: x-large;
     margin-top: 4%;
   }
   .services-head{
-    margin-left: 11%;
+    margin-left: 16%;
   }
   .content-icons{
     width: 100%;
@@ -1053,13 +1053,13 @@ font-size: x-large;
     padding:20px;
   }
   .add-remove-patient{
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
-    margin-left: 2%;
+    margin-left: 20.5%;
   }
   #view-btn{
-    width: 95%;
-    margin-top: 3%;
+    width: 200px;
+    margin-top: 15%;
     /* margin-left: 0%; */
   }
   /* Doctor */
@@ -1123,9 +1123,6 @@ font-size: x-large;
   .graph-content{
     width: 100%;
   }
-  #doc-view-btn{
-    width: 100%;
-  }
   .add-form{
     width: 100%;
     margin-left: 0%;
@@ -1153,7 +1150,55 @@ font-size: x-large;
     width: 50%;
     text-align: left;
   }
-
+  /* admin */
+  .admin-content{
+    padding: 10px;
+  }
+  .admin-content-1{
+    flex-direction: column;
+  }
+  .admin-content-2{
+    padding: 10px;
+  }
+  #admin-btn{
+    width: 100px;
+  }
+  .content-table{
+    width: 100%;
+    overflow: scroll;
+  }
+  .content-table::-webkit-scrollbar {
+    width: 3px;
+    height: 2px;
+  }
+  .content-table::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gainsboro;
+  }
+  .content-table::-webkit-scrollbar-thumb {
+    background: #1E90FF;
+    border-radius: 10px;
+  }
+  .content-table::-webkit-scrollbar-thumb:hover {
+    background: blue;
+  }
+  .content-table-1{
+    width: 100%;
+    overflow: scroll;
+  }
+  .content-table-1::-webkit-scrollbar {
+    width: 3px;
+    height: 2px;
+  }
+  .content-table-1::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gainsboro;
+  }
+  .content-table-1::-webkit-scrollbar-thumb {
+    background: #1E90FF;
+    border-radius: 10px;
+  }
+  .content-table-1::-webkit-scrollbar-thumb:hover {
+    background: blue;
+  }
 }
 
 /* Tablet */
