@@ -19,9 +19,15 @@ class Login extends Component{
                 <form action="">
                     <h1 id="login-head"> LOGIN </h1>
                     <label id="label">PORTALS</label><br/>
-                    <input type="radio"  onClick={this.portalUpdate} id="admin" value="admin" name="portal" className="radial-buttons"/> <label for="admin" id="radio-label">ADMIN</label> 
-                    <input type="radio"  onClick={this.portalUpdate} id="doctor" value="doctor" name="portal" className="radial-buttons"/> <label for="doctor" id="radio-label">DOCTOR</label>
-                    <input type="radio"  onClick={this.portalUpdate} id="staff" value="staff" name="portal" className="radial-buttons"/> <label for="staff" id="radio-label">STAFF</label><br/>
+                    <div className="radial-btns">
+                        <input type="radio"  onClick={this.portalUpdate} id="admin" value="admin" name="portal" className="radial-buttons"/> <label for="admin" id="radio-label">ADMIN</label> <br/>
+                    </div>
+                    <div className="radial-btns">
+                        <input type="radio"  onClick={this.portalUpdate} id="doctor" value="doctor" name="portal" className="radial-buttons"/> <label for="doctor" id="radio-label">DOCTOR</label><br/>
+                    </div>
+                    <div className="radial-btns">
+                        <input type="radio"  onClick={this.portalUpdate} id="staff" value="staff" name="portal" className="radial-buttons"/> <label for="staff" id="radio-label">STAFF</label><br/>                        
+                    </div>
                     <label id="label">USERNAME</label>
                     <input type="email" placeholder="example@gmail.com" id="input" ></input>
                     <label id="label">PASSWORD</label>
